@@ -2,14 +2,15 @@
 	<div id="app">
 		<router-view></router-view>
 
-
+		<tabbar-list />
 	</div>
 </template>
 <script>
-	import tabbarList from "components/content/home/tabbar-list.vue"
+	import TabbarList from "./components/content/home/TabbarList.vue"
 	export default {
+		name: "app",
 		components: {
-			tabbarList
+			TabbarList
 		}
 	}
 </script>
