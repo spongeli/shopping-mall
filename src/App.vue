@@ -1,15 +1,18 @@
 <template>
-  <div id="app">
-     <index></index>
-  </div>
+	<div id="app">
+		<router-view></router-view>
+
+
+	</div>
 </template>
 <script>
-import Index from 'components/Index'
-export default {
-  components:{
-    Index
-  }
-}
+	import tabbarList from "components/content/home/tabbar-list.vue"
+	export default {
+		components: {
+			tabbarList
+		}
+	}
 </script>
 <style>
+	@import 'assets/css/base.css';
 </style>
