@@ -56,10 +56,12 @@
 		text-align: center;
 		font-size: 12px;
 		vertical-align: middle;
+		/* margin: auto 0; */
 	}
 
 	.tabber-nav-item img {
 		width: 23px;
 		height: 23px;
+		margin-top: 5px;
 	}
 </style>

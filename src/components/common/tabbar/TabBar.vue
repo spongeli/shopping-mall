@@ -23,7 +23,6 @@
 		
 		background-color: #F7F7FA;
 		box-shadow: 0 -1px 1px rgba(247, 247, 250, 0.72);
-		
 	}
 
 </style>
