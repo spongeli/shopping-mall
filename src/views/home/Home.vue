@@ -10,8 +10,11 @@
 
 <script>
 	import {getHomeMultidata} from "network/home.js"
-	
+	import {Swipe, SwipeItem} from "mint-ui"
 	export default {
+		components:{
+			Swipe, SwipeItem
+		},
 		data(){
 			return {
 				
